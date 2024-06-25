@@ -21,3 +21,21 @@ section#hero a:hover {
     background-color: #212120;
 }
 
+section#services h2 {
+    font-size: 30px;
+    margin-top: 3em;
+}
+
+section#services p {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+section#services h3 {
+    font-size: 25px;
+}
+
+section#services .col-3 {
+    height: 600px;
+    margin-top: 3em;
+}
