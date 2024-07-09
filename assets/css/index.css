@@ -21,21 +21,61 @@ section#hero a:hover {
     background-color: #212120;
 }
 
-section#services h2 {
+section#recent-work {
+    background-color: #d4d6d5;
+    margin-top: 3em;
+}
+
+section#recent-work h2 {
     font-size: 30px;
     margin-top: 3em;
 }
 
-section#services p {
+section#recent-work p {
     font-size: 40px;
     font-weight: 100;
 }
 
-section#services h3 {
-    font-size: 25px;
+section#recent-work .col-4 {
+    background-image: url('../img/heroexample.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
 }
 
-section#services .col-3 {
+section#recent-work .col-8 {
     height: 600px;
-    margin-top: 3em;
+}
+
+section#recent-work .col-6 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+section#recent-work .col-6:nth-child(1) {
+    background-image: url('../img/cabinets.jpg');
+}
+
+section#recent-work .col-6:nth-child(2) {
+    background-image: url('../img/countertops.jpg');
+}
+
+section#recent-work .col-6:nth-child(3) {
+    background-image: url('../img/trim.JPG');
+}
+
+section#recent-work .col-6:nth-child(4) {
+    background-image: url('../img/wood-panels.jpg');
+}
+
+section#recent-work a {
+    color: #fff;
+    background-color: #4f4f4f;
+    margin-top: 10px;
+}
+
+section#recent-work a:hover {
+    color: #fff;
+    background-color: #212120;
 }
