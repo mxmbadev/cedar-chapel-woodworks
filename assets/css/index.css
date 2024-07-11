@@ -87,7 +87,6 @@ section#about-us {
 
 section#about-us h2 {
     font-size: 30px;
-    margin-top: 3em;
 }
 
 section#about-us h3 {
@@ -97,6 +96,12 @@ section#about-us h3 {
 
 section#about-us .col-4 {
     background-image: url('../img/cabinets.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#about-us .col-8 {
+    padding-left: 100px;
 }
 
 section#about-us a {
