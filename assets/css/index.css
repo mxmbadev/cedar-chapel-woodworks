@@ -6,6 +6,7 @@ h2 {
 h3 {
     font-size: 40px;
     font-weight: 100;
+    margin-bottom: 1em;
 }
 
 
@@ -21,6 +22,7 @@ section#hero h1 {
     color: #fff;
     font-size: 75px;
 }
+
 section#hero a {
     color: #fff;
     background-color: #4f4f4f;
@@ -35,7 +37,7 @@ section#hero a:hover {
 section#recent-work {
     background-color: #d4d6d5;
     margin-top: 3em;
-    padding-bottom: 250px;
+    padding-bottom: 100px;
 }
 
 section#recent-work .col-4 {
@@ -74,7 +76,8 @@ section#recent-work .col-6:nth-child(4) {
 section#recent-work a {
     color: #fff;
     background-color: #4f4f4f;
-    margin-top: 10px;
+    margin: 2em 0 0 12px;
+    width: 100%;
 }
 
 section#recent-work a:hover {
