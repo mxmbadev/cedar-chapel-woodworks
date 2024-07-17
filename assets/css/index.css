@@ -1,3 +1,8 @@
+/* Global CSS */
+@media (min-width: 1400px){
+    .container { max-width: 1440px !important; }
+}
+
 h2 {
     font-size: 30px;
     margin-top: 3em;
@@ -9,7 +14,7 @@ h3 {
     margin-bottom: 1em;
 }
 
-
+/* Homepage */
 section#hero {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/heroexample.jpg");
     background-color: #fff;
