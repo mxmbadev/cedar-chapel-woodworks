@@ -93,9 +93,7 @@ section#about-us {
         background-size: cover;
         min-height: 400px;
     }
-    .col-lg-8, .col-xs-12:nth-child(2) {
-        padding-left: 100px;
-    }
+    
     a {
         color: #fff;
         background-color: #4f4f4f;
@@ -103,6 +101,17 @@ section#about-us {
         &:hover {
             color: #fff;
             background-color: #212120;
+        }
+    }
+    @media (max-width: 991px) {
+        padding-bottom: 0px !important;
+        .col-lg-4, .col-xs-12:nth-child(1) {
+            margin-top: 2em;
+        }
+    }
+    @media (min-width: 992px) {
+        .col-lg-8, .col-xs-12:nth-child(2) {
+            padding-left: 100px;
         }
     }
 }
@@ -131,4 +140,8 @@ section#contact-us {
 section#footer {
     background-color: #212120;
     color: #fff;
+    a { color: #fff; }
+    @media (min-width: 767px) {
+        margin-top: 3em;
+    }
 }
