@@ -1,4 +1,7 @@
 /* Global CSS */
+
+/* button classes: btn-cta, btn-alt */
+
 @media (min-width: 1400px){
     .container { max-width: 1440px !important; }
 }
