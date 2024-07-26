@@ -16,6 +16,10 @@
     }
 }
 
+a.btn-cta {
+    border-radius: 0px;
+}
+
 /* Homepage */
 section#hero {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/heroexample.jpg");
@@ -83,12 +87,13 @@ section#about-us {
     background-color: #f2f2f2;
     padding: 6em 0;
     .title-style { h2 { margin-top: 0px; } }
-    .col-4 {
+    .col-lg-4, .col-xs-12:nth-child(1) {
         background-image: url('../img/cabinets.jpg');
         background-repeat: no-repeat;
         background-size: cover;
+        min-height: 400px;
     }
-    .col-8 {
+    .col-lg-8, .col-xs-12:nth-child(2) {
         padding-left: 100px;
     }
     a {
@@ -103,13 +108,14 @@ section#about-us {
 }
 
 section#contact-us {
-    .col-6:last-child {
+    .col-lg-6, col-xs-12:last-child {
         background-image: url('../img/contact-us-image.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         padding-top: 400px;
     }
+    
     a {
         color: #fff;
         background-color: #212120;
