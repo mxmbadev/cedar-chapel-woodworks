@@ -2,8 +2,10 @@
 
 /* button classes: btn-cta, btn-alt */
 
-@media (min-width: 1400px){
-    .container { max-width: 1440px !important; }
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1440px !important;
+    }
 }
 
 .title-style {
@@ -11,7 +13,7 @@
         font-size: 30px;
         margin-top: 3em;
     }
-    
+
     h3 {
         font-size: 40px;
         font-weight: 100;
@@ -19,9 +21,31 @@
     }
 }
 
-a.btn-cta {
+.btn-cta {
+    color: #fff;
+    background-color: #4f4f4f;
+    margin-top: 10px;
     border-radius: 0px;
+    
+    &:hover {
+        color: #fff;
+        background-color: #212120;
+    }
 }
+
+.btn-alt {
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+    border-width: 2px;
+    border-radius: 0px;
+
+    &:hover {
+        border-color: #d4d6d5;
+        color: #d4d6d5;
+    }
+}
+
 
 /* Homepage */
 section#hero {
@@ -35,17 +59,6 @@ section#hero {
     h1 {
         color: #fff;
         font-size: 75px;
-    }
-
-    a {
-        color: #fff;
-        background-color: #4f4f4f;
-        margin-top: 10px;
-
-        &:hover {
-            color: #fff;
-            background-color: #212120;
-        }
     }
 }
 
@@ -63,87 +76,96 @@ section#recent-work {
             padding: 500px 10px 25px 10px;
         }
     }
-    .work2, .work3, .work4, .work5 { 
+
+    .work2,
+    .work3,
+    .work4,
+    .work5 {
         background-repeat: no-repeat;
         background-size: cover;
+
         h4 {
             padding: 210px 10px 25px 10px;
         }
-     }
-    .work2 { background-image: url('../img/cabinets.jpg'); }
-    .work3 { background-image: url('../img/countertops.jpg'); }
-    .work4 { background-image: url('../img/trim.JPG'); }
-    .work5 { background-image: url('../img/wood-panels.jpg'); }
+    }
+
+    .work2 {
+        background-image: url('../img/cabinets.jpg');
+    }
+
+    .work3 {
+        background-image: url('../img/countertops.jpg');
+    }
+
+    .work4 {
+        background-image: url('../img/trim.JPG');
+    }
+
+    .work5 {
+        background-image: url('../img/wood-panels.jpg');
+    }
+
     a {
-        color: #fff;
-        background-color: #4f4f4f;
-        width: auto;
         float: right;
-        &:hover {
-            color: #fff;
-            background-color: #212120;
-        }
     }
 }
 
 section#about-us {
     background-color: #f2f2f2;
     padding: 6em 0;
-    .title-style { h2 { margin-top: 0px; } }
-    .col-lg-4, .col-xs-12:nth-child(1) {
+
+    .title-style {
+        h2 {
+            margin-top: 0px;
+        }
+    }
+
+    .col-lg-4,
+    .col-xs-12:nth-child(1) {
         background-image: url('../img/cabinets.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         min-height: 400px;
     }
-    
-    a {
-        color: #fff;
-        background-color: #4f4f4f;
-        margin-top: 10px;
-        &:hover {
-            color: #fff;
-            background-color: #212120;
-        }
-    }
+
     @media (max-width: 991px) {
         padding-bottom: 0px !important;
-        .col-lg-4, .col-xs-12:nth-child(1) {
+
+        .col-lg-4,
+        .col-xs-12:nth-child(1) {
             margin-top: 2em;
         }
     }
+
     @media (min-width: 992px) {
-        .col-lg-8, .col-xs-12:nth-child(2) {
+
+        .col-lg-8,
+        .col-xs-12:nth-child(2) {
             padding-left: 100px;
         }
     }
 }
 
 section#contact-us {
-    .col-lg-6, col-xs-12:last-child {
+
+    .col-lg-6,
+    col-xs-12:last-child {
         background-image: url('../img/contact-us-image.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         padding-top: 400px;
     }
-    
-    a {
-        color: #fff;
-        background-color: #212120;
-        margin-top: 10px;
-        width: 100%;
-        &:hover {
-            color: #fff;
-            background-color: #d4d6d5;
-        }
-    }
 }
 
 section#footer {
     background-color: #212120;
     color: #fff;
-    a { color: #fff; }
+
+    a {
+        color: #fff;
+    }
+
     @media (min-width: 767px) {
         margin-top: 3em;
     }
