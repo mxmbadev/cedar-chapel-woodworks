@@ -165,10 +165,6 @@ section#footer {
     a {
         color: #fff;
     }
-
-    @media (min-width: 767px) {
-        margin-top: 3em;
-    }
 }
 
 
@@ -205,11 +201,22 @@ section#project-gallery {
         background-image: url('../img/cabinets.jpg');
         background-repeat: no-repeat;
         background-size: cover;
+        margin-bottom: 25px;
 
         h2 {
             padding: 210px 10px 25px 10px;
             color: #fff;
             font-size: 25px;
         }
+    }
+}
+
+section#slogan {
+    background-color: #4f4f4f;
+    height: 300px;
+    h2 {
+        color: #fff;
+        padding: 130px 0;
+        font-size: 50px;
     }
 }
