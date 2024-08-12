@@ -240,3 +240,18 @@ section#project-details-hero {
         font-size: 75px;
     }
 }
+
+section#project-photos {
+    .photo1,
+    .photo2,
+    .photo3,
+    .photo4,
+    .photo5,
+    .photo6 {
+        background-image: url(../img/trim.JPG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 25px;
+        padding: 175px 0;
+    }
+}
