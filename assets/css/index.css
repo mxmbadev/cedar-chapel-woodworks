@@ -223,3 +223,20 @@ section#slogan {
         font-size: 50px;
     }
 }
+
+
+/* Project Details Page */
+
+section#project-details-hero {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/heroexample.jpg");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 325px 0;
+
+    h1 {
+        color: #fff;
+        font-size: 75px;
+    }
+}
