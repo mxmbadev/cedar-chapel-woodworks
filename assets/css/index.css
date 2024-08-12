@@ -255,3 +255,12 @@ section#project-photos {
         padding: 175px 0;
     }
 }
+
+section#contact-us-banner {
+    background-color: #d4d6d5;
+    padding: 75px 0;
+
+    a {
+        padding: 6px 60px;
+    }
+}
