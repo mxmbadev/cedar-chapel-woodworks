@@ -1,4 +1,44 @@
 /* Global CSS */
+/* Red Examples: #CD1C18 */
+:root {
+    --main-red-color: #B22222;
+    --light-gray: #dedede;
+    --nav-text-color: #fff;
+}
+
+nav.navbar {
+    padding: 0px; 
+    .navbar-brand {
+        color: var(--nav-text-color);
+    }
+    .nav-item {
+        color: var(--nav-text-color);
+        .nav-link { padding: 20px; color: var(--nav-text-color); }
+    }
+    &.scrolled {
+        background-color: var(--nav-text-color);
+        box-shadow: var(--light-gray) 0px 0px 8px 0px;
+        .navbar-brand {
+            color: #000;
+        }
+        .nav-item {
+            .nav-link { color: #000; }
+            &:last-child {
+                background-color: var(--main-red-color);
+                .nav-link { color: var(--nav-text-color); }
+
+                &:hover {
+                    background-color: var(--main-red-color);
+                    color: var(--nav-text-color);
+                }
+            }
+            .nav-link:hover {
+                background-color: var(--main-red-color);
+                color: var(--nav-text-color);
+            }
+        }
+    }
+}
 
 /* button classes: btn-cta, btn-alt */
 
@@ -12,6 +52,9 @@
     h2 {
         font-size: 30px;
         margin-top: 3em;
+        margin-bottom: 0px;
+        color: var(--main-red-color);
+        font-weight: 700;
     }
 
     h3 {
@@ -23,7 +66,7 @@
 
 .btn-cta {
     color: #fff;
-    background-color: #e6353e;
+    background-color: var(--main-red-color);
     margin-top: 10px;
     border-radius: 0px;
 
@@ -32,6 +75,7 @@
         background-color: #212120;
     }
 }
+
 
 .btn-alt {
     background-color: transparent;
@@ -49,7 +93,7 @@
 
 /* Homepage */
 section#hero {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Cedar Chapel/StudioBank.jpg");
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("../img/CedarChapel/StudioBank.jpg");
     background-color: #fff;
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,7 +111,7 @@ section#recent-work {
     padding-bottom: 100px;
 
     .most-recent-work {
-        background-image: url('../img/Cedar Chapel/ACM9.jpeg');
+        background-image: url('../img/CedarChapel/ACM9.jpeg');
         background-repeat: no-repeat;
         background-size: cover;
 
@@ -92,19 +136,19 @@ section#recent-work {
     }
 
     .work2 {
-        background-image: url('../img/Cedar Chapel/erose-wellness-cafe-2.jpg');
+        background-image: url('../img/CedarChapel/erose-wellness-cafe-2.jpg');
     }
 
     .work3 {
-        background-image: url('../img/Cedar Chapel/gibson5.jpg');
+        background-image: url('../img/CedarChapel/gibson5.jpg');
     }
 
     .work4 {
-        background-image: url('../img/Cedar Chapel/valtrius6.jpg');
+        background-image: url('../img/CedarChapel/valtrius6.jpg');
     }
 
     .work5 {
-        background-image: url('../img/Cedar Chapel/VUGolfTeamFacility.jpg');
+        background-image: url('../img/CedarChapel/VUGolfTeamFacility.jpg');
     }
 
     a {
@@ -113,30 +157,24 @@ section#recent-work {
 }
 
 section#about-us {
-    background-color: #e6353e;
+    background-color: var(--light-gray);
     padding: 6em 0;
+    color: #000;
 
     .title-style {
         h2 {
             margin-top: 0px;
-            color: #fff;
         }
-        h3 {
-            color: #fff;
-        }
-    }
-
-    p{
-        color: #fff;
     }
 
     .col-lg-4,
     .col-xs-12:nth-child(1) {
-        background-image: url('../img/Cedar Chapel/YellowFreight.jpg');
+        background-image: url('../img/CedarChapel/santos-rest-4.jpg');
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: 50% 30%;
         min-height: 400px;
-        border: 5px solid #fff;
+        /* border: 5px solid #fff; */
     }
 
     @media (max-width: 991px) {
@@ -161,7 +199,7 @@ section#contact-us {
 
     .col-lg-6,
     col-xs-12:last-child {
-        background-image: url('../img/Cedar Chapel/DukeDriveAme3.jpg');
+        background-image: url('../img/CedarChapel/DukeDriveAme3.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -226,8 +264,9 @@ section#project-gallery {
 }
 
 section#slogan {
-    background-color: #e6353e;
+    background-color: var(--main-red-color);
     height: 300px;
+
     h2 {
         color: #fff;
         padding: 130px 0;
@@ -253,6 +292,7 @@ section#project-details-hero {
 }
 
 section#project-photos {
+
     .photo1,
     .photo2,
     .photo3,
@@ -265,10 +305,10 @@ section#project-photos {
         margin-bottom: 25px;
         padding: 175px 0;
     }
-} 
+}
 
 section#contact-us-banner {
-    background-color: #e6353e;
+    background-color: var(--main-red-color);
     padding: 75px 0;
 
     h2 {
