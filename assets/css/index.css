@@ -220,7 +220,7 @@ section#footer {
 /* Projects Page */
 
 section#projects-hero {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/heroexample.jpg");
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../img/CedarChapel/erose-wellness-cafe-4.jpg");
     background-color: #fff;
     background-repeat: no-repeat;
     background-size: cover;
@@ -241,26 +241,73 @@ section#projects-hero {
 
 section#project-gallery {
 
-    .project1,
-    .project2,
-    .project3,
-    .project4,
-    .project5,
-    .project6,
-    .project7,
-    .project8,
-    .project9 {
-        background-image: url('../img/cabinets.jpg');
-        background-repeat: no-repeat;
+    .project1 {
+        background-image: url('../img/CedarChapel/ACM1.jpg');
+        background-position: center;
         background-size: cover;
-        margin-bottom: 25px;
+        
+    }
+
+    .project2 {
+        background-image: url('../img/CedarChapel/erose-wellness-cafe-3.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .project3 {
+        background-image: url('../img/CedarChapel/gibson5.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .project4 {
+        background-image: url('../img/CedarChapel/valtrius6.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .project5 {
+        background-image: url('../img/CedarChapel/VUGolfTeamFacility5.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .project6 {
+        background-image: url('../img/CedarChapel/AzkoNobel3.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .project7 {
+        background-image: url('../img/CedarChapel/santos-rest-4.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .project8 {
+        background-image: url('../img/CedarChapel/integrity-music-nash3.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .project9 {
+        background-image: url('../img/CedarChapel/DukeDriveAme2.jpg');
+        background-position: center;
+        background-size: cover;
+    }
 
         h2 {
             padding: 210px 10px 25px 10px;
             color: #fff;
             font-size: 25px;
         }
-    }
+
+        a {
+            padding: 210px 10px 25px 10px;
+            color: #fff;
+            font-size: 25px;
+        }
+    
 }
 
 section#slogan {
