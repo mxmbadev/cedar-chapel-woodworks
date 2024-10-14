@@ -245,7 +245,6 @@ section#project-gallery {
         background-image: url('../img/CedarChapel/ACM1.jpg');
         background-position: center;
         background-size: cover;
-        
     }
 
     .project2 {
@@ -325,7 +324,7 @@ section#slogan {
 /* Project Details Page */
 
 section#project-details-hero {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/heroexample.jpg");
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/CedarChapel/ACM1.jpg");
     background-color: #fff;
     background-repeat: no-repeat;
     background-size: cover;
@@ -340,23 +339,44 @@ section#project-details-hero {
 
 section#project-photos {
 
-    .photo1,
-    .photo2,
-    .photo3,
-    .photo4,
-    .photo5,
-    .photo6 {
-        background-image: url(../img/trim.JPG);
-        background-repeat: no-repeat;
+    .col-6 {
+        padding: 12px;
+    }
+
+    .photo1 {
+        background-image: url('../img/CedarChapel/ACM1.jpg');
+        background-position: center;
         background-size: cover;
-        margin-bottom: 25px;
+        padding: 175px 0;
+    }
+
+    .photo2 {
+        background-image: url('../img/CedarChapel/ACM2.jpeg');
+        background-position: center;
+        background-size: cover;
+        padding: 175px 0;
+    }
+
+    .photo3 {
+        background-image: url('../img/CedarChapel/ACM8.jpeg');
+        background-position: center;
+        background-size: cover;
+        padding: 175px 0;
+    }
+
+    .photo4 {
+        background-image: url('../img/CedarChapel/ACM9.jpeg');
+        background-position: center;
+        background-size: cover;
         padding: 175px 0;
     }
 }
 
+
 section#contact-us-banner {
     background-color: var(--main-red-color);
     padding: 75px 0;
+    margin-top: 50px;
 
     h2 {
         color: #fff;
